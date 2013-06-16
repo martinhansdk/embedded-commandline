@@ -1,8 +1,9 @@
 
-namespace embedded-commandline;
+namespace embeddedcommandline {
 
 class LineEditor {
 public:
-	void putc(char c) = 0;
-}
+	virtual void putc(char c) = 0;
+};
 
+}

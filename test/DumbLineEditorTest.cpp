@@ -4,15 +4,22 @@
 #include <string>
 
 #include <DumbLineEditor.h>
+#include <LineHandler.h>
 
-namespace embedded-commandline {
+using namespace std;
+using ::testing::StrictMock;
+using ::testing::Sequence;
+using ::testing::StrEq;
 
-class TestOutputter : Outputter {
+namespace embeddedcommandline {
+
+class TestOutputter : public Outputter {
 public:
 	string text;
 
 	void putc(char c) {
-		text.append(c);
+		text.append(1, c);
+			
 	}
 
 	void puts(char* s) {
@@ -21,21 +28,24 @@ public:
 
 };
 
-class LineHandlerMock : LineHandler {
-	MOCK_METHOD1(handleLine);
+class LineHandlerMock : public LineHandler {
+public:
+	MOCK_METHOD1(handleLine, void(const char* line));
 };
 
-class DumbLineEditorTest : ::testing::Test {
+class DumbLineEditorTest : public ::testing::Test {
+protected:
+
 	TestOutputter output;
 	StrictMock<LineHandlerMock> handler;
 	DumbLineEditor<10> editor;
 
 	Sequence sequence;
 
-	DumbLineEditorTest() editor(output, handler) {}
+	DumbLineEditorTest() : editor(output, handler) {}
 
 	void expectCompletedLine(string text) {
-		EXPECT_CALL(handler(text.c_str())).InSequence(sequence);
+		EXPECT_CALL(handler, handleLine(StrEq(text))).InSequence(sequence);
 	}
 };
 
@@ -43,7 +53,7 @@ TEST_F(DumbLineEditorTest, typedCharactersAreOutput) {
 	editor.putc('a');
 	editor.putc('b');
 
-	EXPECT_EQ(text, "ab");
+	EXPECT_EQ(output.text, "ab");
 }
 
 TEST_F(DumbLineEditorTest, completeLinesAreHandled) {
@@ -56,12 +66,12 @@ TEST_F(DumbLineEditorTest, completeLinesAreHandled) {
 	editor.putc('o');
 	editor.putc('\n');
 
-	EXPECT_EQ(text, "hello\n");
+	EXPECT_EQ(output.text, "hello\n");
 }
 
 TEST_F(DumbLineEditorTest, canEditSeveralLinesAfterEachOther) {
 	expectCompletedLine("ab");
-	expectCompletedLine("de");
+	expectCompletedLine("cd");
 	
 	editor.putc('a');
 	editor.putc('b');
@@ -70,6 +80,27 @@ TEST_F(DumbLineEditorTest, canEditSeveralLinesAfterEachOther) {
 	editor.putc('c');
 	editor.putc('d');
 	editor.putc('\n');
+}
+
+TEST_F(DumbLineEditorTest, enforcesMaximumLineLength) {
+	expectCompletedLine("abcdefghij");
+	
+	editor.putc('a');
+	editor.putc('b');
+	editor.putc('c');
+	editor.putc('d');
+	editor.putc('e');
+	editor.putc('f');
+	editor.putc('g');
+	editor.putc('h');
+	editor.putc('i');
+	editor.putc('j');
+	editor.putc('k');
+	editor.putc('l');
+	editor.putc('m');
+	editor.putc('\n');
+
+	EXPECT_EQ(output.text, "abcdefghij\n");
 }
 
 }
