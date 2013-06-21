@@ -20,14 +20,14 @@ public:
 
 	}
 
-	void putc(char c) {
+	void putchar(char c) {
 		if(c == '\n') {
-			output.putc(c);
+			output.putchar(c);
 			line[length]='\0';
 			handler.handleLine(line);
 			length=0;
 		} else if(length < MAX_LINELENGTH) {
-			output.putc(c);
+			output.putchar(c);
 			line[length]=c;
 			length++;
 		}

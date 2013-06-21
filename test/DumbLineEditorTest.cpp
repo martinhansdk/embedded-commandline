@@ -17,7 +17,7 @@ class TestOutputter : public Outputter {
 public:
 	string text;
 
-	void putc(char c) {
+	void putchar(char c) {
 		text.append(1, c);
 			
 	}
@@ -50,8 +50,8 @@ protected:
 };
 
 TEST_F(DumbLineEditorTest, typedCharactersAreOutput) {
-	editor.putc('a');
-	editor.putc('b');
+	editor.putchar('a');
+	editor.putchar('b');
 
 	EXPECT_EQ(output.text, "ab");
 }
@@ -59,12 +59,12 @@ TEST_F(DumbLineEditorTest, typedCharactersAreOutput) {
 TEST_F(DumbLineEditorTest, completeLinesAreHandled) {
 	expectCompletedLine("hello");
 
-	editor.putc('h');
-	editor.putc('e');
-	editor.putc('l');
-	editor.putc('l');
-	editor.putc('o');
-	editor.putc('\n');
+	editor.putchar('h');
+	editor.putchar('e');
+	editor.putchar('l');
+	editor.putchar('l');
+	editor.putchar('o');
+	editor.putchar('\n');
 
 	EXPECT_EQ(output.text, "hello\n");
 }
@@ -73,32 +73,32 @@ TEST_F(DumbLineEditorTest, canEditSeveralLinesAfterEachOther) {
 	expectCompletedLine("ab");
 	expectCompletedLine("cd");
 	
-	editor.putc('a');
-	editor.putc('b');
-	editor.putc('\n');
+	editor.putchar('a');
+	editor.putchar('b');
+	editor.putchar('\n');
 
-	editor.putc('c');
-	editor.putc('d');
-	editor.putc('\n');
+	editor.putchar('c');
+	editor.putchar('d');
+	editor.putchar('\n');
 }
 
 TEST_F(DumbLineEditorTest, enforcesMaximumLineLength) {
 	expectCompletedLine("abcdefghij");
 	
-	editor.putc('a');
-	editor.putc('b');
-	editor.putc('c');
-	editor.putc('d');
-	editor.putc('e');
-	editor.putc('f');
-	editor.putc('g');
-	editor.putc('h');
-	editor.putc('i');
-	editor.putc('j');
-	editor.putc('k');
-	editor.putc('l');
-	editor.putc('m');
-	editor.putc('\n');
+	editor.putchar('a');
+	editor.putchar('b');
+	editor.putchar('c');
+	editor.putchar('d');
+	editor.putchar('e');
+	editor.putchar('f');
+	editor.putchar('g');
+	editor.putchar('h');
+	editor.putchar('i');
+	editor.putchar('j');
+	editor.putchar('k');
+	editor.putchar('l');
+	editor.putchar('m');
+	editor.putchar('\n');
 
 	EXPECT_EQ(output.text, "abcdefghij\n");
 }

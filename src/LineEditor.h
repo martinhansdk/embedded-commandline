@@ -3,7 +3,7 @@ namespace embeddedcommandline {
 
 class LineEditor {
 public:
-	virtual void putc(char c) = 0;
+	virtual void putchar(char c) = 0;
 };
 
 }
