@@ -1,0 +1,7 @@
+compiler:
+  - clang
+  - gcc
+
+language: cpp
+
+install: make cmake
