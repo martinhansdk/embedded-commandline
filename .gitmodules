@@ -1,0 +1,3 @@
+[submodule "googlemock"]
+	path = googlemock
+	url = https://github.com/martinhansdk/googlemock.git
