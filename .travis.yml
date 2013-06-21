@@ -4,4 +4,10 @@ compiler:
 
 language: cpp
 
-install: cmake
+script:
+  - mkdir build
+  - cd build
+  - cmake
+  - make
+  - test/test
+  
