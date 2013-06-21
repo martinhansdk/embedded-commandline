@@ -7,7 +7,7 @@ language: cpp
 script:
   - mkdir build
   - cd build
-  - cmake
+  - cmake ..
   - make
   - test/test
   
