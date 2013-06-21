@@ -4,4 +4,4 @@ compiler:
 
 language: cpp
 
-install: make cmake
+install: cmake
