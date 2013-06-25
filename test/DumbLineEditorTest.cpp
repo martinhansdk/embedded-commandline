@@ -5,6 +5,7 @@
 
 #include <DumbLineEditor.h>
 #include <LineHandler.h>
+#include <TestUtils.h>
 
 using namespace std;
 using ::testing::StrictMock;
@@ -13,6 +14,7 @@ using ::testing::StrEq;
 
 namespace embeddedcommandline {
 
+<<<<<<< HEAD
 class TestOutputter : public Outputter {
 public:
 	string text;
@@ -28,6 +30,8 @@ public:
 
 };
 
+=======
+>>>>>>> Work in progress command manager
 class LineHandlerMock : public LineHandler {
 public:
 	MOCK_METHOD1(handleLine, void(const char* line));

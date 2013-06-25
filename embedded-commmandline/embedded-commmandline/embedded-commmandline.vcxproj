@@ -44,7 +44,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\cpp-libs\gmock-1.6.0\include;C:\cpp-libs\gmock-1.6.0\gtest\include;C:\Users\Hans\Documents\GitHub\embedded-commandline\src;$(IncludePath)</IncludePath>
+    <IncludePath>C:\cpp-libs\gmock-1.6.0\include;C:\cpp-libs\gmock-1.6.0\gtest\include;C:\Users\Hans\Documents\GitHub\embedded-commandline\test;C:\Users\Hans\Documents\GitHub\embedded-commandline\src;$(IncludePath)</IncludePath>
     <LibraryPath>C:\cpp-libs\gmock-1.6.0\msvc\2010\Debug;C:\cpp-libs\gmock-1.6.0\gtest\msvc\gtest\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -82,14 +82,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\Command.h" />
+    <ClInclude Include="..\..\src\CommandManager.h" />
     <ClInclude Include="..\..\src\DumbLineEditor.h" />
     <ClInclude Include="..\..\src\InputOutput.h" />
     <ClInclude Include="..\..\src\LineEditor.h" />
+    <ClInclude Include="..\..\test\TestUtils.h" />
     <ClInclude Include="LineHandler.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\..\cpp-libs\gmock-1.6.0\src\gmock_main.cc" />
     <ClCompile Include="..\..\test\DumbLineEditorTest.cpp" />
+    <ClCompile Include="..\..\test\CommandManagerTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
