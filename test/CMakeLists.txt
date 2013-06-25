@@ -1,4 +1,5 @@
 include_directories(${EMBEDDEDCOMMANDLINE_SOURCE_DIR}/src)
+include_directories(${EMBEDDEDCOMMANDLINE_SOURCE_DIR}/test)
 include_directories(${EMBEDDEDCOMMANDLINE_SOURCE_DIR}/googlemock/include)
 include_directories(${EMBEDDEDCOMMANDLINE_SOURCE_DIR}/googlemock/gtest/include)
 

@@ -14,24 +14,7 @@ using ::testing::StrEq;
 
 namespace embeddedcommandline {
 
-<<<<<<< HEAD
-class TestOutputter : public Outputter {
-public:
-	string text;
 
-	void putchar(char c) {
-		text.append(1, c);
-			
-	}
-
-	void puts(char* s) {
-		text.append(s);
-	}
-
-};
-
-=======
->>>>>>> Work in progress command manager
 class LineHandlerMock : public LineHandler {
 public:
 	MOCK_METHOD1(handleLine, void(const char* line));
