@@ -16,7 +16,7 @@ namespace embeddedcommandline {
 
 class MockCommand : public Command {
 public:
-	virtual void execute(char* args[], int nargs) {
+	virtual void execute(const char* args[], int nargs) {
 		string text;
 		bool first=true;
 		for(int i=0 ; i<nargs ; i++) {
@@ -34,24 +34,28 @@ public:
 };
 
 class CommandManagerTest : public ::testing::Test {
-	const int MAX_COMMANDS = 5;
-	const int MAX_ARGS = 3;
+protected:
+	static const int MAX_COMMANDS = 5;
+	static const int MAX_ARGS = 3;
 
 	StrictMock<MockCommand> cmd1, cmd2, cmd3;
 	TestOutputter output;
 
 	CommandManager<MAX_COMMANDS, MAX_ARGS> manager;
 
-	CommandManagerTest() : manager(&output) {}
+	CommandManagerTest() : manager(output) {}
 
 };
+
+const int CommandManagerTest::MAX_COMMANDS;
+const int CommandManagerTest::MAX_ARGS;
 
 TEST_F(CommandManagerTest, dispatchesCommandWithoutArguments) {
 	manager.addCommand("quit", cmd1);
 
-	EXPECT_CALL(cmd1.execute(StrEq("")));
+	EXPECT_CALL(cmd1, execute(StrEq("")));
 
-	manager.HandleLine("quit");
+	manager.handleLine("quit");
 }
 
 }

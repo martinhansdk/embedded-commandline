@@ -3,9 +3,10 @@
 
 namespace embeddedcommandline {
 
-	class Command {
-		virtual void execute(char* args[], int nargs) = 0;
-	}
+class Command {
+public:
+	virtual void execute(const char* args[], int nargs) = 0;
+};
 
 }
 
