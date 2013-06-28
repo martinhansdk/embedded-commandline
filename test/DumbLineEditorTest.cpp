@@ -17,7 +17,7 @@ namespace embeddedcommandline {
 
 class LineHandlerMock : public LineHandler {
 public:
-	MOCK_METHOD1(handleLine, void(const char* line));
+	MOCK_METHOD1(handleLine, void(char* line));
 };
 
 class DumbLineEditorTest : public ::testing::Test {

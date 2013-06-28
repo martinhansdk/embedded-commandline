@@ -5,7 +5,7 @@ namespace embeddedcommandline {
 
 class LineHandler {
 public:
-	virtual void handleLine(const char* line) = 0;
+	virtual void handleLine(char* line) = 0;
 };
 
 }

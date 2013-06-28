@@ -20,7 +20,7 @@ public:
 			
 	}
 
-	void puts(char* s) {
+	void puts(const char* s) {
 		text.append(s);
 	}
 
