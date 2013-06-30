@@ -40,7 +40,7 @@ TEST_F(DumbLineEditorTest, typedCharactersAreOutput) {
 	editor.putchar('a');
 	editor.putchar('b');
 
-	EXPECT_EQ(output.text, "ab");
+	EXPECT_EQ("ab", output.text);
 }
 
 TEST_F(DumbLineEditorTest, completeLinesAreHandled) {
@@ -53,7 +53,13 @@ TEST_F(DumbLineEditorTest, completeLinesAreHandled) {
 	editor.putchar('o');
 	editor.putchar('\n');
 
-	EXPECT_EQ(output.text, "hello\n");
+	EXPECT_EQ("hello\n", output.text);
+}
+
+TEST_F(DumbLineEditorTest, emptyLinesAreNotHandled) {
+	editor.putchar('\n');
+
+	EXPECT_EQ("\n", output.text);
 }
 
 TEST_F(DumbLineEditorTest, canEditSeveralLinesAfterEachOther) {
@@ -87,7 +93,24 @@ TEST_F(DumbLineEditorTest, enforcesMaximumLineLength) {
 	editor.putchar('m');
 	editor.putchar('\n');
 
-	EXPECT_EQ(output.text, "abcdefghij\n");
+	EXPECT_EQ("abcdefghij\n", output.text);
+}
+
+TEST_F(DumbLineEditorTest, promptIsOutput) {
+	expectCompletedLine("ab");
+	expectCompletedLine("cd");
+
+	editor.setPrompt("input> ");
+
+	editor.putchar('\n');
+	editor.putchar('a');
+	editor.putchar('b');
+	editor.putchar('\n');
+	editor.putchar('c');
+	editor.putchar('d');
+	editor.putchar('\n');
+
+	EXPECT_EQ("input> \ninput> ab\ninput> cd\ninput> ", output.text);
 }
 
 }

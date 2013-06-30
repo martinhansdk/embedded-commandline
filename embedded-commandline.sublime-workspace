@@ -4,816 +4,136 @@
 		"selected_items":
 		[
 			[
-				"E",
-				"EXPECT_EQ"
-			],
-			[
-				"Dum",
-				"DumbLineEditorTest"
-			],
-			[
-				"LineHandler",
-				"LineHandlerMock"
-			],
-			[
-				"i",
-				"inc	#include \"…\""
-			],
-			[
-				"page",
-				"pageheight"
-			],
-			[
-				"ma",
-				"maxheight"
-			],
-			[
-				"max",
-				"maxwidth"
-			],
-			[
-				"fil",
-				"filterHandlerList	struct ʈ"
-			],
-			[
-				"pro",
-				"progress"
-			],
-			[
-				"mi",
-				"midnight_of_date"
-			],
-			[
-				"da",
-				"database"
-			],
-			[
-				"co",
-				"column"
-			],
-			[
-				"de",
-				"details"
-			],
-			[
-				"uni",
-				"unicode"
-			],
-			[
-				"Data",
-				"DataServer"
-			],
-			[
-				"total",
-				"total_raw_count"
-			],
-			[
-				"so",
-				"software_instance"
-			],
-			[
-				"raw",
-				"raw_count"
-			],
-			[
-				"ne",
-				"next_benchmark_time"
-			],
-			[
-				"be",
-				"benchmark_period"
-			],
-			[
-				"ad",
-				"added_count"
-			],
-			[
-				"ra",
-				"raw_count"
-			],
-			[
-				"time",
-				"timedelta  (class)"
-			],
-			[
-				"dat",
-				"datetime  (class)"
-			],
-			[
-				"s",
-				"software_id  (variable)"
-			],
-			[
-				"K",
-				"KeyError  (class)"
-			],
-			[
-				"open",
-				"open_instances"
-			],
-			[
-				"tr",
-				"transaction_count"
-			],
-			[
-				"tra",
-				"transaction_count"
-			],
-			[
-				"soft",
-				"software_instances"
-			],
-			[
-				"B",
-				"BooleanField  (class)"
-			],
-			[
-				"hand",
-				"handle_qamp_device_error"
-			],
-			[
-				"tim",
-				"time_stamp"
-			],
-			[
-				"me",
-				"message"
-			],
-			[
-				"date",
-				"datetime"
-			],
-			[
-				"get",
-				"get_or_create_software_instance"
-			],
-			[
-				"Doe",
-				"ObjectDoesNotExist  (class)"
-			],
-			[
-				"ti",
-				"time_stamp"
-			],
-			[
-				"en",
-				"entry"
-			],
-			[
-				"start",
-				"starttime"
-			],
-			[
-				"p",
-				"parse_args  (function)"
-			],
-			[
-				"yesterday",
-				"yesterday_at_midnight"
-			],
-			[
-				"C",
-				"CharField  (class)"
-			],
-			[
-				"TL",
-				"TLogMessageParam"
-			],
-			[
-				"_",
-				"_meta"
-			],
-			[
-				"For",
-				"ForeignKey"
-			],
-			[
-				"M",
-				"Model  (class)"
-			],
-			[
-				"D",
-				"DateTimeField  (class)"
-			],
-			[
-				"DATA",
-				"DATA_INVALID	qubeamp::ErrorSeverity"
-			],
-			[
-				"DAT",
-				"DATA_INVALID	qubeamp::ErrorSeverity"
-			],
-			[
-				"DA",
-				"DATA_INVALID	qubeamp::ErrorSeverity"
-			],
-			[
-				"EXCL",
-				"EXCLUDE_BOARD_FROM_CURRENT_RUN	qubeamp::ErrorSeverity"
-			],
-			[
-				"EXPECT_",
-				"EXPECT_TRUE(condition)	macro"
-			],
-			[
-				"EX",
-				"EXCLUDE_PERMANENTLY	qubeamp::ErrorSeverity"
-			],
-			[
-				"fp",
-				"fpgaAccessTest	sophionlibs::OptionValueInt"
-			],
-			[
-				"cmd",
-				"cmdShell	CmdShell *"
-			],
-			[
-				"re",
-				"repetitions	int"
-			],
-			[
-				"for",
-				"for	For Loop"
-			],
-			[
-				"cyg_u",
-				"cyg_uint32	typedef"
-			],
-			[
-				"Option",
-				"OptionValueBool	class"
-			],
-			[
-				"FPSH",
-				"INITIAL_FPGA_CHANNEL_SHERMAN_RSCOMP_D	const cyg_uint16"
-			],
-			[
-				"cyg_uint",
-				"cyg_uint16	typedef"
-			],
-			[
-				"NO",
-				"NO_OF_CHANNELS	const size_t"
-			],
-			[
-				"fi",
-				"filterValues	OptionValueList<OptionValueUnsigned<unsigned int>, 3>"
-			],
-			[
-				"res",
-				"resultConnection	FakeResultConnection"
-			],
-			[
-				"BU",
-				"BUILD_NUMBER	const int"
-			],
-			[
-				"set",
-				"setRsCompensationFactor(unsigned int channel, cyg_uint16 factor)	void"
-			],
-			[
-				"e",
-				"elementNo	TBufferElementNo"
-			],
-			[
-				"exp",
-				"expectedNoOfElementsMax	TBufferElementNo"
-			],
-			[
-				"ex",
-				"expectedNoOfPages	size_t"
-			],
-			[
-				"no",
-				"noOfElementsPerChannel	size_t"
-			],
-			[
-				"Re",
-				"WillRepeatedly(const Action<qubeamp::PagedDataPointer<const unsigned short> (unsigned long long, unsigned long long)> &action)	testing::internal::TypedExpectation<qubeamp::PagedDataPointer<const unsigned short> (unsigned long long, unsigned long long)> &"
-			],
-			[
-				"req",
-				"requestTimestamp"
-			],
-			[
-				"PAGE",
-				"PAGE_SIZE	const TBufferElementNo"
-			],
-			[
-				"off",
-				"offsetInChannel	TBufferElementNo"
-			],
-			[
-				"of",
-				"offsetInChannel	TBufferElementNo"
-			],
-			[
-				"return",
-				"return_value_of_cmd"
-			],
-			[
-				"files",
-				"files_with_forbidden_string"
-			],
-			[
-				"str",
-				"str_equivalence"
-			],
-			[
-				"t",
-				"ticks_started_at_real_time  (variable)"
-			],
-			[
-				"tic",
-				"ticks_started_at_real_time"
-			],
-			[
-				"A",
-				"APP_IP"
+				"MA",
+				"MAX_ARGS"
 			],
 			[
 				"MAX",
-				"MAX_LEGAL_BOARD_POSITION	const unsigned int"
+				"MAX_COMMANDS"
 			],
 			[
-				"will",
-				"WillRepeatedly(const Action<unsigned short (unsigned int)> &action)	testing::internal::TypedExpectation<unsigned short (unsigned int)> &"
+				"offse",
+				"offsetCells"
 			],
 			[
-				"cyg_ui",
-				"cyg_uint16	typedef"
+				"o",
+				"offsetCells"
 			],
 			[
-				"getI",
-				"getInitialVOffset(unsigned int channel)	cyg_uint16"
+				"add",
+				"addAlive"
 			],
 			[
-				"TA",
-				"TAmpClockTicks"
+				"_",
+				"_xCoordinate"
 			],
 			[
-				"ele",
-				"elementNo2	TBufferElementNo"
+				"grid",
+				"gridsize"
 			],
 			[
-				"curr",
-				"currentResultSequence	Sequence *"
+				"test",
+				"testNumberOfNeighbours"
 			],
 			[
-				"result",
-				"resultSequence	Sequence"
+				"l",
+				"getLiveCells"
 			],
 			[
-				"las",
-				"lastPage	int"
-			],
-			[
-				"fir",
-				"firstPage	int"
-			],
-			[
-				"dm",
-				"dmaTransferSuccessful()	void"
-			],
-			[
-				"next",
-				"getNextChunkEndTime"
-			],
-			[
-				"MockIQ",
-				"MockIQAmpFPGA	class"
-			],
-			[
-				"IQA",
-				"IQAmpFPGA	class"
-			],
-			[
-				"m",
-				"measurementInputBuffer	MeasurementBuffer *"
-			],
-			[
-				"err",
-				"errorSeverity	qubeamp::ErrorSeverity"
-			],
-			[
-				"optio",
-				"optionValue	const char *"
-			],
-			[
-				"check",
-				"checksumBuffer	PagedCircularBuffer<cyg_uint32, NO_OF_CHANNELS, 4>"
-			],
-			[
-				"c",
-				"count	int"
-			],
-			[
-				"ch",
-				"checksumCount	int"
-			],
-			[
-				"che",
-				"checksumLen	int"
-			],
-			[
-				"ID",
-				"IDataCollector	class"
-			],
-			[
-				"allo",
-				"allocateNextPageForWriting()	DataPointer<ElementT>"
-			],
-			[
-				"P",
-				"PAGE_A	qubeamp::IQAmpFPGA::FPGAPage"
-			],
-			[
-				"getpa",
-				"getCurrentFPGAPage()	qubeamp::IQAmpFPGA::FPGAPage"
-			],
-			[
-				"getC",
-				"getPageChecksum(unsigned int channel, qubeamp::IQAmpFPGA::FPGAPage page)	cyg_uint32"
-			],
-			[
-				"pN",
-				"pNextChecksumPageToWrite	cyg_uint32 *"
-			],
-			[
-				"FPGA_CH",
-				"FPGA_CHANNEL_CHECKSUM_PAGE_A	const cyg_addrword_t"
-			],
-			[
-				"u",
-				"u16_t	typedef"
-			],
-			[
-				"cyg_int",
-				"cyg_int32	typedef"
-			],
-			[
-				"Mock",
-				"MockIQAmpBoard	class"
-			],
-			[
-				"I",
-				"IQAmpBoard	class"
-			],
-			[
-				"reset",
-				"resetObjects	qubeamp::ResetObjects"
-			],
-			[
-				"CmdRe",
-				"CmdResetTest	class"
-			],
-			[
-				"Timer",
-				"TimerCounterTest	class"
-			],
-			[
-				"per",
-				"percentagePointsPerTick	const float"
-			],
-			[
-				"data",
-				"dataTimeStamp	TAmpClockTicks"
-			],
-			[
-				"Ch",
-				"ChannelWaveformHandlerTest	class"
-			],
-			[
-				"un",
-				"untilTime	TAmpClockTicks"
-			],
-			[
-				"Tim",
-				"TimerCounter	class"
-			],
-			[
-				"in",
-				"invalid	int"
-			],
-			[
-				"Da",
-				"DataPacketTest	class"
-			],
-			[
-				"CYG_ASS",
-				"CYG_ASSERT(condition, message)	macro"
-			],
-			[
-				"qu",
-				"queuedBytes"
-			],
-			[
-				"n",
-				"noOfChunks	int"
-			],
-			[
-				"end",
-				"endHeaders	int"
+				"se",
+				"setLiveCell"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "\n#include <gtest/gtest.h>\n#include <gmock/gmock.h>\n#include <string>\n\n#include <DumbLineEditor.h>\n\nnamespace embedded-commandline {\n\nclass TestOutputter : Outputter {\npublic:\n	string text;\n\n	void putc(char c) {\n		text.append(c);\n	}\n\n	void puts(char* s) {\n		text.append(s);\n	}\n\n};\n\nclass LineHandlerMock : LineHandler {\n	MOCK_METHOD1(handleLine);\n};\n\nclass DumbLineEditorTest : ::testing::Test {\n	TestOutputter output;\n	StrictMock<LineHandlerMock> handler;\n	DumbLineEditor<10> editor;\n\n	Sequence sequence;\n\n	DumbLineEditorTest() editor(output, handler) {}\n\n	void expectCompletedLine(string text) {\n		EXPECT_CALL(handler(text.c_str())).InSequence(sequence);\n	}\n};\n\nTEST_F(DumbLineEditorTest, typedCharactersAreOutput) {\n	editor.putc('a');\n	editor.putc('b');\n\n	EXPECT_EQ(output.text, \"ab\");\n}\n\nTEST_F(DumbLineEditorTest, completeLinesAreHandled) {\n	expectCompletedLine(\"hello\");\n\n	editor.putc('h');\n	editor.putc('e');\n	editor.putc('l');\n	editor.putc('l');\n	editor.putc('o');\n	editor.putc('\\n');\n\n	EXPECT_EQ(output.text, \"hello\\n\");\n}\n\nTEST_F(DumbLineEditorTest, canEditSeveralLinesAfterEachOther) {\n	expectCompletedLine(\"ab\");\n	expectCompletedLine(\"de\");\n	\n	editor.putc('a');\n	editor.putc('b');\n	editor.putc('\\n');\n\n	editor.putc('c');\n	editor.putc('d');\n	editor.putc('\\n');\n\n	EXPECT_EQ(output.text, \"ab\\nde\\n\");\n}\n\n}\n\n",
-			"file": "test/SimpleLineEditorTest.cpp",
-			"file_size": 1339,
-			"file_write_time": 130151127990953996,
+			"file": "test/CommandManagerTest.cpp",
 			"settings":
 			{
-				"buffer_size": 1315,
-				"line_ending": "Windows"
+				"buffer_size": 1183,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "#ifndef LINEEDITOR_H\n#define LINEEDITOR_H\n\n\nnamespace embedded-commandline {\n\nclass LineEditor {\npublic:\n	void putc(char c) = 0;\n};\n\n\n}\n#endif",
-			"file": "src/LineEditor.h",
-			"file_size": 96,
-			"file_write_time": 130145927098853580,
+			"file": "test/CMakeLists.txt",
 			"settings":
 			{
-				"buffer_size": 142,
-				"line_ending": "Windows"
+				"buffer_size": 394,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "#ifndef INPUTOUTPUT_H\n#define INPUTOUTPUT_H\n\nnamespace embedded-commandline {\n\nclass Outputter {\npublic:\n	void putc(char c) = 0;\n	void puts(char* s) = 0;\n};\n\nclass LineHandler {\n	void handleLine(char* line) = 0;\n};\n\n}\n#endif",
-			"file": "src/InputOutput.h",
-			"file_size": 206,
-			"file_write_time": 130145950758230264,
+			"file": "src/CommandManager.h",
 			"settings":
 			{
-				"buffer_size": 224,
-				"line_ending": "Windows",
-				"name": "InputOutput"
+				"buffer_size": 709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/LineHandler.h",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Command.h",
+			"settings":
+			{
+				"buffer_size": 167,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "src/DumbLineEditor.h",
 			"settings":
 			{
-				"buffer_size": 515,
-				"line_ending": "Windows"
+				"buffer_size": 682,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/TestUtils.h",
+			"settings":
+			{
+				"buffer_size": 367,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter:\n-------------\n\n  SublimeLinter 1.7.0 changelog\n  =============================\n  \n  NEW FEATURES\n  ------------\n  - Add \"Quick Start\" section to the README\n  - New commands for the (Sublime Text) command palette to open the \n    SublimeLinter preferences files (Default & User)\n  - Ruby linting support via [ruby-lint](https://github.com/YorickPeterse/ruby-lint)\n  - Haskell linting support via [hlint](http://community.haskell.org/~ndm/hlint/)\n  - Add gutter mark themes. Add 5 new built-in themes:\n    \"alpha\", \"bright\", \"dark\", \"hard\", and \"simple\".\n    Custom themes can also be used.\n  \n  CHANGES/FIXES\n  -------------\n  - Update JSHint to v1.1.0\n  - Update CoffeeScript linter to support latest error message format\n  - Settings are refreshed when a new file is saved; this should fix\n    several bugs: #233, #359, #149, #367\n  - The `lint_args` setting now matches the documentation; it will\n    override the default arguments rather than extend them. This will\n    give users full control over linter/checker arguments.\n  - Clean up markdown formatting in changelog\n  \n  IMPORTANT\n  ---------\n  Due to the fix for `lint_args`, if you are currently customizing this\n  setting, you **must** adjust your settings.\n  \n\n  SublimeLinter 1.6.13 changelog\n  ==============================\n  \n  CHANGES/FIXES\n  -------------\n  - Updated PEP8 to version v1.4\n  - Updated PyFlakes to v0.6.1\n  - Updated CSSLint to v0.9.10\n  - Update JSHint to v1.0.0\n  - Update JSLint to latest\n  - Fixed issues with attempting to encode file name when using \n    scratch space.\n  \n\n  SublimeLinter 1.6.12 changelog\n  ==============================\n  \n  CHANGES/FIXES\n  -------------\n  - Cpplint no longer uses a temporary file - it leverages stdin\n    instead.\n  - Fixed issue #298: C linter throws \"KeyError\"\n  \n",
+			"settings":
+			{
+				"buffer_size": 1860,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
 			}
 		}
 	],
-	"build_system": "run unittests (host)",
+	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 348.0,
 		"selected_items":
 		[
 			[
-				"syntax c",
-				"Set Syntax: C"
-			],
-			[
-				"make",
-				"Set Syntax: Makefile"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"setdj",
-				"Set Syntax: Python Django"
+				"pack",
+				"Package Control: Disable Package"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
-			],
-			[
-				"git di",
-				"Git: Diff Current File"
-			],
-			[
-				"git d",
-				"Git: Diff Current File"
-			],
-			[
-				"Snippet: ",
-				"Snippet: nocommit"
-			],
-			[
-				"sync",
-				"Set Syntax: C++"
-			],
-			[
-				"gitch",
-				"Git: Commit history"
-			],
-			[
-				"comm",
-				"Git: Commit"
-			],
-			[
-				"git st",
-				"Git: Status"
-			],
-			[
-				"git add",
-				"Git: Add Current File"
-			],
-			[
-				"git diffc",
-				"Git: Diff Current File"
-			],
-			[
-				"gitco",
-				"Git: Commit"
-			],
-			[
-				"gitad",
-				"Git: Add Current File"
-			],
-			[
-				"git",
-				"Git: Commit"
-			],
-			[
-				"git b",
-				"Git: Blame"
-			],
-			[
-				"gitdiff",
-				"Git: Diff Current File"
-			],
-			[
-				"gitd",
-				"Git: Diff Current File"
-			],
-			[
-				"git blame",
-				"Git: Blame"
-			],
-			[
-				"gitb",
-				"Git: Blame"
-			],
-			[
-				"Snippet: for",
-				"Snippet: For Loop"
-			],
-			[
-				"packi",
-				"Package Control: Install Package"
-			],
-			[
-				"blam",
-				"Git: Blame"
-			],
-			[
-				"boot",
-				"Build: Boot qamp-application"
-			],
-			[
-				"buib",
-				"Build: Boot qamp-application"
-			],
-			[
-				"bui",
-				"Build: Boot qamp-application"
-			],
-			[
-				"synmak",
-				"Set Syntax: Makefile"
-			],
-			[
-				"snippet #",
-				"Snippet: #ifndef … #define … #endif"
-			],
-			[
-				"pack",
-				"Package Control: Remove Package"
-			],
-			[
-				"spac",
-				"Indentation: Convert to Spaces"
-			],
-			[
-				"fold",
-				"Code Folding: Unfold All"
-			],
-			[
-				"packinsta",
-				"Package Control: Install Package"
-			],
-			[
-				"packin",
-				"Package Control: Create Binary Package File"
-			],
-			[
-				"git co",
-				"Git: Commit"
-			],
-			[
-				"git stat",
-				"Git: Status"
-			],
-			[
-				"tabs",
-				"Indentation: Convert to Tabs"
-			],
-			[
-				"synma",
-				"Set Syntax: Makefile"
-			],
-			[
-				"upper",
-				"Convert Case: Upper Case"
-			],
-			[
-				"close",
-				"File: Close All"
-			],
-			[
-				"synm",
-				"Set Syntax: Makefile"
-			],
-			[
-				"gdb",
-				"SublimeGDB: Stop Debugging"
-			],
-			[
-				"sublimegdb",
-				"Preferences: SublimeGDB Settings – Default"
-			],
-			[
-				"in",
-				"Indentation: Reindent Lines"
-			],
-			[
-				"lorem",
-				"Snippet: Lorem ipsum"
-			],
-			[
-				"proj",
-				"Project: Close"
-			],
-			[
-				"pa",
-				"Package Control: List Packages"
-			],
-			[
-				"lint",
-				"Package Control: Install Package"
-			],
-			[
-				"zen ty",
-				"Zen Coding: Zen as you type"
-			],
-			[
-				"zen",
-				"Zen Coding: Zen as you type"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"upp",
-				"Convert Case: Upper Case"
-			],
-			[
-				"paki",
-				"Package Control: Install Package"
-			],
-			[
-				"gita",
-				"Git: Toggle Annotations"
-			],
-			[
-				"git diff",
-				"Git: Diff Current File"
-			],
-			[
-				"gitlog",
-				"Git: Log All"
-			],
-			[
-				"gitl",
-				"Git: Log Current File"
-			],
-			[
-				"pai",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 274.0
+		"height": 139.0
 	},
 	"distraction_free":
 	{
@@ -826,145 +146,26 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Hans/AppData/Roaming/Sublime Text 2/Packages/GoSublime/USAGE.md",
-		"/C/Users/Hans/AppData/Roaming/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
-		"/C/Users/Hans/Documents/GitHub/embedded-commandline/test/LineEditor.h",
-		"/C/Program Files/CrashPlan/conf/ui.properties",
-		"/C/Program Files/EAGLE-6.4.0/bin/eagle.def",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/import_log_messages.py",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/horus.sublime-project",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/urls.py",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/templates/logsubset/pivotchart.html",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/logsubset/views.py",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/templates/logsubset/datatable.html",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/templates/logsubset/pivottable.html",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/templates/logsubset/detail.html",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/templates/logsubset/base.html",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/static/style.css",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/templates/logsubset/table.html",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/settings.py",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/logsubset/routers.py",
-		"/C/Users/Hans/Documents/Career/Martin/Jobs/Sophion/horus/logsubset/models.py",
-		"/home/martin/code/qamp-application/qamp/src/QAmpConfiguration.h",
-		"/home/martin/code/qamp-application/qamp/src/CmdWaveform.h",
-		"/home/martin/code/qamp-application/qamp/src/Waveform.h",
-		"/home/martin/code/qamp-application/qamp/src/CmdReset.cpp",
-		"/home/martin/code/qamp-application/qamp/src/DataPackager.cpp",
-		"/home/martin/code/qamp-application/qamp/test/Mocks.h",
-		"/home/martin/code/qamp-application/qamp/src/WaveformHandler.cpp",
-		"/home/martin/code/qamp-application/qamp/src/WaveformHandler.h",
-		"/home/martin/code/qamp-application/qamp/src/ChannelWaveformHandler.cpp",
-		"/home/martin/code/qamp-application/qamp/src/NetworkInitialization.cpp",
-		"/home/martin/code/qamp-application/qamp/src/TcpConnection.cpp",
-		"/home/martin/code/qamp-application/qamp/src/TelnetCmdShell.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdServer.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdSelftest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdSelftest.h",
-		"/home/martin/code/qamp-application/qamp/src/QAmp.h",
-		"/home/martin/code/qamp-application/qamp/src/QAmp.cpp",
-		"/home/martin/code/qamp-application/qamp/src/QAmpConfiguration.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdWaveform.cpp",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/src/CmdShell/CmdShell.cpp",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/src/CmdShell/CmdShell.h",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/src/CmdShell/CmdStringLexer.cpp",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/src/CmdShell/CmdStringLexer.hpp",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/test/CmdStringLexerTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdCCompensation.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdCCompensation.h",
-		"/home/martin/code/qamp-application/qamp/src/QAmpFPGA.cpp",
-		"/home/martin/code/qamp-application/qamp/src/WaveformHandlerInterface.h",
-		"/home/martin/code/qamp-application/qamp/src/ChannelWaveformHandler.h",
-		"/home/martin/code/qamp-application/qamp/src/QCmdRunWaveform.cpp",
-		"/home/martin/code/qamp-application/qamp/src/QCmdRunWaveform.h",
-		"/home/martin/code/qamp-application/qamp-application.sublime-project",
-		"/home/martin/.config/sublime-text-2/Packages/GoSublime/CHANGELOG.md",
-		"/home/martin/code/qamp-application/qamp/src/QAmpFPGA.h",
-		"/home/martin/code/qamp-application/qamp/test/DataPackagerTest.cpp",
-		"/home/martin/code/qamp-application/qamp/test/CmdRsCompensationTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdRsCompensation.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdRsCompensation.h",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/src/CmdShell/Command.h",
-		"/home/martin/code/qamp-application/qamp/src/CmdReset.h",
-		"/home/martin/code/qamp-application/qamp/test/CmdResetTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/timekeeping/TimerCommands.cpp",
-		"/home/martin/.config/sublime-text-2/Packages/User/SublimeClang.sublime-settings",
-		"/home/martin/code/ecos-config-qamp-jtag/ecos.ecc",
-		"/home/martin/code/qamp-application/qamp/src/EcosThread.hpp",
-		"/home/martin/code/qamp-application/qamp/src/TcpConnection.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/api.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/ip_addr.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/ip4_addr.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/sys.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/arch/sys_arch.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/netbuf.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/ip6_addr.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/err.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/ip.h",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/lwip/tcp.h",
-		"/home/martin/code/qamp-application/qamp/src/ErrorHandler.h",
-		"/home/martin/code/qamp-application/qamp/src/IErrorHandler.h",
-		"/home/martin/code/qamp-application/qamp/src/DataPackager.h",
-		"/home/martin/code/qamp-application/qamp/src/ExceptionHandler.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdVersion.cpp",
-		"/home/martin/code/qamp-application/qamp/test/include/boost/math/tools/detail/polynomial_horner1_4.hpp",
-		"/home/martin/code/qamp-application/qamp/src/LoadMonitor.h",
-		"/home/martin/code/qamp-application/qamp/src/LoadMonitor.cpp",
-		"/home/martin/code/qamp-application/measure_cpu_load.sh",
-		"/home/martin/code/qamp-application/qamp/plot_cpu_load.py",
-		"/home/martin/code/qamp-application/qamp/src/CmdVOffset.cpp",
-		"/home/martin/code/ecos-config-qamp-ram/ecos.ecc",
-		"/home/martin/code/redboot-qamp/ecos.ecc",
-		"/home/martin/code/qamp-application/build_all.sh",
-		"/home/martin/.config/sublime-text-2/Packages/User/nocommit.sublime-snippet",
-		"/home/martin/code/qamp-application/qamp/src/DataCollector.cpp",
-		"/home/martin/code/qamp-application/qamp/src/DataCollector.h",
-		"/home/martin/code/qamp-application/qamp/test/DataCollectorTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/PagedCircularBuffer.h",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/test/TestUtils.h",
-		"/home/martin/code/qamp-application/qamp/src/IDataCollector.h",
-		"/tmp/svn/svnroot/hooks/pre-commit",
-		"/home/martin/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/home/martin/bin/svn-nocommit-hook.py",
-		"/home/martin/bin/svn-nosubmit-hook.py",
-		"/home/martin/code/qamp-application/qamp/src/CmdDebug.cpp",
-		"/home/martin/code/Applications/opentest.c",
-		"/home/martin/code/qamp-application/qamp/src/CmdPrompt.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdVOffset.h",
-		"/home/martin/code/qamp-application/qamp/test/CmdVOffsetTest.cpp",
-		"/home/martin/code/qamp-application/qamp/qamptime.py",
-		"/home/martin/code/qamp-application/qamp/test/CmdRSCompensationTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/ResultConnection.h",
-		"/home/martin/code/qamp-application/qamp/test/PagedCircularBufferTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdVersion.h",
-		"/home/martin/code/qamp-application/qamp/src/ResultConnection.cpp",
-		"/home/martin/code/qamp-application/qamp/test/CmdIOffsetTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/CmdIOffset.h",
-		"/home/martin/code/qamp-application/qamp/src/CmdIOffset.cpp",
-		"/home/martin/code/qamp-application/qamp/test/ResultConnectionTest.cpp",
-		"/home/martin/code/qamp-application/cpp-sophionlibs/src/StaticObjectPool.h",
-		"/home/martin/code/qamp-application/qamp/src/application/qubeamp_main.cpp",
-		"/home/martin/code/qamp-application/makefile.host.mk",
-		"/home/martin/code/qamp-application/qamp/test/MemoryMapTest.cpp",
-		"/home/martin/code/qamp-application/qamp/test/CmdCCompensationTest.cpp",
-		"/home/martin/code/qamp-application/currentTime=0 newestSampleEndTime=0currentTime=512 newestSampleEndTime=0currentTime=1024 newestSampleEndTime=0currentTime=2560 newestSampleEndTime=0currentTime=3072 newestSampleEndTime=0currentTime=5120 newestSampleEndTime=0/home/martin/code/qamp-application/qamp/test/DataPackagerTest.cpp",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/cyg/hal/hal_cache.h",
-		"/home/martin/code/qamp-application/qamp/src/DMA.cpp",
-		"/home/martin/code/qamp-application/qamp/src/DMA.h",
+		"/home/martin/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/martin/conway/test.py",
+		"/home/martin/conway/conway.py",
+		"/home/martin/conway/build.sh",
+		"/home/martin/conway/conway.h",
+		"/home/martin/conway/test.cpp",
+		"/home/martin/conway/conway.cpp",
 		"/home/martin/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/home/martin/code/qamp-application/qamp/src/DataPackagerInterface.h",
-		"/home/martin/.config/sublime-text-2/Packages/User/C++.sublime-settings",
-		"/home/martin/code/qamp-application/qamp/src/unittest/host/include/cyg/hal/plf_io.h"
+		"/home/martin/.config/sublime-text-2/Packages/User/SublimeLinter.sublime-settings",
+		"/usr/share/applications/sublime.desktop"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 0.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -972,134 +173,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"')",
-			"QTracks",
-			"pivotchart",
-			"weatherdata",
-			"strentry",
-			"o",
-			"\"\n",
-			"sendNextChunkOfData",
-			"sendDataBuffer",
-			"REXMIT",
-			"nagle",
-			"connection",
-			"packed",
-			"CHECKSUMS_CHECK",
-			"PBUF_POOL_OVERRIDE_HEADER",
-			"CHECKSUMS_CHECK_IP",
-			"PBUF_POOL_OVERRIDE_HEADER",
-			"POSIX_CLOCK_TYPES",
-			"POSIX_CLOCK",
-			"endConnectionFlag",
-			"expectMultipleChunks",
-			"10.1.24.2",
-			"10",
-			"setRsCompVoltage",
-			"Compensation",
-			"-1000",
-			"CmdC",
-			"config",
-			"ResetObjects",
-			"NO_OF_SAMPLES_DELAY_BETWEEN_WAVEFORM_AND_SAMPLING",
-			"	",
-			"expectDataChunkToBeSent(checksumPointer, dataPointer);",
-			"MEASUREMENT_INPUT_BUFFER_PAGE_SIZE",
-			"TMeasurementSample",
-			"MEASUREMENT_INPUT_BUFFER_NO_OF_PAGES",
-			"fpga",
-			"elementNo",
-			"offsetIntoBuffer",
-			"noOfPages",
-			"IOffset",
-			"WillOnce",
-			"EXPECT_CALL",
-			"printf",
-			"CACHED",
-			"SAM9G45EK_SDRAM_CACHED_VIRT_BASE",
-			"));",
-			"CYGARC_",
-			"(unsigned)",
-			"totalNoOfElements",
-			"totalElementNo",
-			"lengthPerChannel",
-			"	",
-			"EXCLUDE_CHANNEL_FROM_RUN",
-			"lengthPerChannel",
-			"dataPointer",
-			"result",
-			"checkGetSampleDataBlocks",
-			"		checksumPointer0.pData = &checksumPage0;",
-			"datacoll",
-			"checkDataSentOnTime",
-			"int",
-			"unsigned int",
-			"getBufferedData",
-			"ensureConnectionOpen",
-			"();\n",
-			";\n",
-			"int",
-			"fpga",
-			"int PAGE_SIZE, int NO_OF_PAGES",
-			"unsigned int PAGE_SIZE, unsigned int NO_OF_PAGES",
-			"datacoll",
-			"TBufferElementNo",
-			"pagedci",
-			"length",
-			"queuedBytes",
-			"nextHeaderIndex",
-			"DataServerProtocol",
-			"currentChunk",
-			"Pointer",
-			"Iterator",
-			"DataserverProtocol",
-			"DataServerProtocol",
-			"DataserverProtocol",
-			"clientConnection.",
-			"dataConnection",
-			"timestamp",
-			"logC",
-			"SenderLogIterator",
-			"SenderLog",
-			"myiterator",
-			"sentBytes",
-			"();\n",
-			"buffer",
-			"WaveformHandler",
-			"FPGAVoltageUnitsToMillivolts",
-			"50",
-			"asap",
-			"NoVoltage",
-			"FPGAChannel::MAX_SEGMENTS",
-			"pEstablishedConnection",
-			"inUse",
-			"new",
-			"sendBufferFlag",
-			"receiveBufferMutex",
-			"receiveeventflag",
-			"receiveflag",
-			"dataLostFlag",
-			"data",
-			"dataLostFlag",
-			"netconn",
-			"voffset",
-			"DEFAULT_HOLDING_VOLTAGE",
-			"run",
-			"segmentparts",
-			"kill",
-			"load",
-			"gdb.expect(prompt)",
-			"gdb.expect",
-			"zero",
-			"bool",
-			"invalid",
-			"data_invalid",
-			"headerSize",
-			"XML",
-			"kDefaultOutputFile",
-			"xml",
-			"printfSync",
-			"printfS"
+			"testGridCanHaveLiveCell",
+			"cell",
+			"TEST(ConwayTest, noNeighbourInNonemptyGrid) {\n	Grid grid;\n	grid.setLiveCellAt(0, 0);\n\n	Cell cell(2, 2);\n\n	EXPECT_EQ(0, grid.numberOfNeigbouringCellsThatAreAliveAdjacentToThisCell(cell));\n}",
+			"numberOfLiveNeighboursToCell",
+			"LiveCell"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1107,24 +185,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"RsComp",
-			"16000",
-			"CmdRs",
-			"   ",
-			"    ",
-			"     ",
-			")));",
-			"Hex(CYGARC_",
-			"Hex(",
-			"    ",
-			"EXCLUDE_BOARD_FROM_CURRENT_RUN",
-			"cyg_uint32",
-			"getQueuedBytes",
-			"unsigned int PAGE_SIZE, unsigned int NO_OF_PAGES",
-			"clientConnection->",
-			"clientConnection",
-			"c",
-			"NO_OF_ENTRIES_IN_WAVEFORM_TABLE"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1135,55 +195,104 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/SimpleLineEditorTest.cpp",
+					"file": "test/CommandManagerTest.cpp",
 					"settings":
 					{
-						"buffer_size": 1315,
+						"buffer_size": 1183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								826,
-								826
+								558,
+								558
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "src/LineEditor.h",
+					"file": "test/CMakeLists.txt",
 					"settings":
 					{
-						"buffer_size": 142,
+						"buffer_size": 394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								142,
-								142
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/CommandManager.h",
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								688
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/LineHandler.h",
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
 							]
 						],
 						"settings":
@@ -1197,24 +306,23 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/InputOutput.h",
+					"buffer": 4,
+					"file": "src/Command.h",
 					"settings":
 					{
-						"buffer_size": 224,
+						"buffer_size": 167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								211,
-								211
+								124,
+								124
 							]
 						],
 						"settings":
 						{
-							"auto_name": "InputOutput",
 							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1222,33 +330,79 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "src/DumbLineEditor.h",
 					"settings":
 					{
-						"buffer_size": 515,
+						"buffer_size": 682,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								397,
-								397
+								187,
+								187
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "test/TestUtils.h",
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 1860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1860,
+								1860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1261,11 +415,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 34.0
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 0.0
 	},
 	"layout":
 	{
@@ -1276,25 +430,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
 			1.0
 		],
 		"rows":
@@ -1304,33 +444,9 @@
 		]
 	},
 	"menu_visible": true,
-	"output.GoSublime-source-output":
-	{
-		"height": 100.0
-	},
-	"output.MarGo-output":
-	{
-		"height": 100.0
-	},
-	"output.clang":
-	{
-		"height": 94.0
-	},
-	"output.clang_static_analyzer":
-	{
-		"height": 269.0
-	},
-	"output.exec":
-	{
-		"height": 258.0
-	},
-	"output.git":
-	{
-		"height": 114.0
-	},
 	"replace":
 	{
-		"height": 66.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1339,600 +455,36 @@
 		"selected_items":
 		[
 			[
-				"l",
-				"src/LineEditor.h"
+				"tes",
+				"test/TestUtils.h"
 			],
 			[
-				"main",
-				"src/main.c"
+				"dum",
+				"src/DumbLineEditor.h"
 			],
 			[
-				"ma",
-				"src/Makefile"
+				"comm",
+				"src/Command.h"
 			],
 			[
-				"mod",
-				"models.py"
-			],
-			[
-				"vi",
-				"views.py"
-			],
-			[
-				"ecos",
-				"qamp/src/EcosThread.hpp"
-			],
-			[
-				"tcp",
-				"qamp/src/TcpConnection.cpp"
-			],
-			[
-				"qam",
-				"qamp/src/QAmp.cpp"
-			],
-			[
-				"stat",
-				"cpp-sophionlibs/test/StaticTableTest.cpp"
-			],
-			[
-				"sta",
-				"cpp-sophionlibs/src/StaticTable.h"
-			],
-			[
-				"error",
-				"qamp/src/ErrorHandler.cpp"
-			],
-			[
-				"ierror",
-				"qamp/src/IErrorHandler.h"
-			],
-			[
-				"e",
-				"qamp/src/ErrorHandler.h"
-			],
-			[
-				"erro",
-				"qamp/test/ErrorHandlerTest.cpp"
-			],
-			[
-				"tel",
-				"qamp/src/TelnetCmdShell.cpp"
-			],
-			[
-				"cmdserver",
-				"qamp/src/CmdServer.cpp"
-			],
-			[
-				"init",
-				"qamp/src/NetworkInitialization.cpp"
-			],
-			[
-				"chann",
-				"qamp/src/ChannelWaveformHandler.cpp"
-			],
-			[
-				"wavefo",
-				"qamp/src/WaveformHandler.cpp"
-			],
-			[
-				"mock",
-				"qamp/test/Mocks.h"
-			],
-			[
-				"datapa",
-				"qamp/src/DataPackager.cpp"
-			],
-			[
-				"cmdre",
-				"qamp/src/CmdReset.cpp"
-			],
-			[
-				"w",
-				"qamp/src/Waveform.h"
-			],
-			[
-				"cmdw",
-				"qamp/src/CmdWaveform.h"
-			],
-			[
-				"qampco",
-				"qamp/src/QAmpConfiguration.h"
-			],
-			[
-				"cmdr",
-				"qamp/src/QCmdRunWaveform.cpp"
-			],
-			[
-				"qampfp",
-				"qamp/src/QAmpFPGA.cpp"
-			],
-			[
-				"cmdc",
-				"qamp/src/CmdCCompensation.cpp"
-			],
-			[
-				"cmdst",
-				"cpp-sophionlibs/test/CmdStringLexerTest.cpp"
-			],
-			[
-				"cmdstle",
-				"cpp-sophionlibs/src/CmdShell/CmdStringLexer.cpp"
-			],
-			[
-				"cmdsh",
-				"cpp-sophionlibs/src/CmdShell/CmdShell.cpp"
-			],
-			[
-				"qamp",
-				"qamp/src/QAmp.h"
-			],
-			[
-				"fpga",
-				"qamp/src/QAmpFPGA.h"
-			],
-			[
-				"self",
-				"qamp/src/CmdSelftest.h"
-			],
-			[
-				"timer",
-				"qamp/src/timekeeping/TimerCommands.cpp"
-			],
-			[
-				"cmd",
-				"qamp/src/CmdReset.cpp"
-			],
-			[
-				"wave",
-				"qamp/src/WaveformHandler.cpp"
-			],
-			[
-				"ch",
-				"qamp/src/ChannelWaveformHandler.cpp"
-			],
-			[
-				"channe",
-				"qamp/src/ChannelWaveformHandler.cpp"
-			],
-			[
-				"rs",
-				"qamp/test/CmdRsCompensationTest.cpp"
-			],
-			[
-				"qamfp",
-				"qamp/src/QAmpFPGA.cpp"
-			],
-			[
-				"cmdv",
-				"qamp/src/CmdVersion.cpp"
-			],
-			[
-				"exc",
-				"qamp/src/ExceptionHandler.cpp"
-			],
-			[
-				"ierr",
-				"qamp/src/IErrorHandler.h"
-			],
-			[
-				"wavefoh",
-				"qamp/src/WaveformHandler.cpp"
-			],
-			[
-				"ip4.h",
-				"qamp/test/include/boost/math/tools/detail/polynomial_horner1_4.hpp"
-			],
-			[
-				"telnet",
-				"qamp/src/TelnetCmdShell.cpp"
-			],
-			[
-				"err",
-				"qamp/src/unittest/host/include/lwip/err.h"
-			],
-			[
-				"api",
-				"qamp/src/unittest/host/include/lwip/api.h"
-			],
-			[
-				"tcpcon",
-				"qamp/src/TcpConnection.cpp"
-			],
-			[
-				"qamc",
-				"qamp/src/QAmpConfiguration.cpp"
-			],
-			[
-				"cmdvo",
-				"qamp/src/CmdVOffset.cpp"
-			],
-			[
-				"chan",
-				"qamp/src/ChannelWaveformHandler.h"
-			],
-			[
-				"cmdrs",
-				"qamp/src/CmdRsCompensation.cpp"
-			],
-			[
-				"fp",
-				"qamp/src/QAmpFPGA.h"
-			],
-			[
-				"cmdshel",
-				"cpp-sophionlibs/src/CmdShell/CmdShell.cpp"
-			],
-			[
-				"plo",
-				"qamp/plot_cpu_load.py"
-			],
-			[
-				"load",
-				"qamp/src/LoadMonitor.h"
-			],
-			[
-				"testut",
-				"cpp-sophionlibs/test/TestUtils.h"
-			],
-			[
-				"idata",
-				"qamp/src/IDataCollector.h"
-			],
-			[
-				"paged",
-				"qamp/src/PagedCircularBuffer.h"
-			],
-			[
-				"fpg",
-				"qamp/src/QAmpFPGA.h"
-			],
-			[
-				"datacolt",
-				"qamp/test/DataCollectorTest.cpp"
-			],
-			[
-				"qamph",
-				"qamp/src/QAmpFPGA.h"
-			],
-			[
-				"",
-				"qamp/src/QAmpFPGA.cpp"
-			],
-			[
-				"q",
-				"qamp/src/QAmp.cpp"
-			],
-			[
-				"wavef",
-				"qamp/src/Waveform.h"
-			],
-			[
-				"reset",
-				"qamp/src/CmdReset.cpp"
-			],
-			[
-				"pro",
-				"qamp/src/CmdPrompt.cpp"
-			],
-			[
-				"debu",
-				"qamp/src/CmdDebug.cpp"
-			],
-			[
-				"data",
-				"qamp/src/DataCollector.cpp"
-			],
-			[
-				"qa",
-				"qamp/src/QAmpFPGA.h"
-			],
-			[
-				"cmru",
-				"qamp/src/QCmdRunWaveform.cpp"
-			],
-			[
-				"datac",
-				"qamp/src/DataCollector.h"
-			],
-			[
-				"moc",
-				"qamp/test/Mocks.h"
-			],
-			[
-				"pagedcb",
-				"qamp/src/PagedCircularBuffer.h"
-			],
-			[
-				"resu",
-				"qamp/src/ResultConnection.h"
-			],
-			[
-				"versionh",
-				"qamp/src/CmdVersion.h"
-			],
-			[
-				"pagedc",
-				"qamp/test/PagedCircularBufferTest.cpp"
-			],
-			[
-				"datact",
-				"qamp/test/DataCollectorTest.cpp"
-			],
-			[
-				"datacol",
-				"qamp/src/DataCollector.cpp"
-			],
-			[
-				"qamf",
-				"qamp/src/QAmpFPGA.h"
-			],
-			[
-				"datacot",
-				"qamp/test/DataCollectorTest.cpp"
-			],
-			[
-				"version",
-				"qamp/src/CmdVersion.cpp"
-			],
-			[
-				"cmdi",
-				"qamp/src/CmdIOffset.cpp"
-			],
-			[
-				"datai",
-				"qamp/src/DataPackagerInterface.h"
-			],
-			[
-				"dapate",
-				"qamp/test/DataPackagerTest.cpp"
-			],
-			[
-				"datap",
-				"qamp/src/DataPackager.cpp"
-			],
-			[
-				"re",
-				"qamp/src/ResultConnection.h"
-			],
-			[
-				"hal_c",
-				"qamp/src/unittest/host/include/cyg/hal/hal_cache.h"
-			],
-			[
-				"staticob",
-				"cpp-sophionlibs/src/StaticObjectPool.h"
-			],
-			[
-				"plf",
-				"qamp/src/unittest/host/include/cyg/hal/plf_io.h"
-			],
-			[
-				"mem",
-				"qamp/test/MemoryMapTest.cpp"
-			],
-			[
-				"comman",
-				"cpp-sophionlibs/src/CmdShell/Command.h"
-			],
-			[
-				"cmdinstr",
-				"qamp/src/CmdInstrument.cpp"
-			],
-			[
-				"qamp.h",
-				"qamp/src/QAmp.h"
-			],
-			[
-				"dma",
-				"qamp/src/DMA.h"
-			],
-			[
-				"dm",
-				"qamp/src/DMA.cpp"
-			],
-			[
-				"tcpco",
-				"qamp/src/TcpConnection.cpp"
-			],
-			[
-				"cmdstr",
-				"cpp-sophionlibs/src/CmdShell/CmdStringLexer.cpp"
-			],
-			[
-				"dataspro",
-				"qamp/src/DataServerProtocol.h"
-			],
-			[
-				"config",
-				"qamp/src/QAmpConfiguration.cpp"
-			],
-			[
-				"cmdbo",
-				"qamp/src/CmdBoard.cpp"
-			],
-			[
-				"cmdquit",
-				"qamp/src/CmdQuit.cpp"
-			],
-			[
-				"cmdpa",
-				"cpp-sophionlibs/src/CmdShell/CmdParser.cpp"
-			],
-			[
-				"hist",
-				"cpp-sophionlibs/src/Histogram.h"
-			],
-			[
-				"flex",
-				"cpp-sophionlibs/src/FlexPtr.hpp"
-			],
-			[
-				"clien",
-				"qamp/src/ClientConnection.cpp"
-			],
-			[
-				"ala",
-				"qamp/src/timekeeping/Alarm.cpp"
-			],
-			[
-				"versio",
-				"qamp/src/CmdVersion.cpp"
-			],
-			[
-				"excp",
-				"qamp/src/ExceptionHandler.cpp"
-			],
-			[
-				"inje",
-				"qamp/src/CmdInjectError.cpp"
-			],
-			[
-				"inj",
-				"qamp/src/CmdInjectError.cpp"
-			],
-			[
-				"dataserph",
-				"qamp/src/DataServerProtocol.h"
-			],
-			[
-				"testu",
-				"cpp-sophionlibs/test/TestUtils.h"
-			],
-			[
-				"dataspr",
-				"qamp/src/DataServerProtocol.h"
-			],
-			[
-				"datacoll",
-				"qamp/src/DataCollector.cpp"
-			],
-			[
-				"cli",
-				"qamp/src/ClientConnection.cpp"
-			],
-			[
-				"datapro",
-				"qamp/src/DataServerProtocol.h"
-			],
-			[
-				"datas",
-				"qamp/test/DataServerProtocolTest.cpp"
-			],
-			[
-				"cminj",
-				"qamp/src/CmdInjectError.cpp"
-			],
-			[
-				"ier",
-				"qamp/src/IErrorHandler.h"
-			],
-			[
-				"commandma",
-				"cpp-sophionlibs/src/CmdShell/CommandManager.cpp"
-			],
-			[
-				"qamp.c",
-				"qamp/src/QAmp.cpp"
-			],
-			[
-				"dataco",
-				"qamp/src/DataCollector.cpp"
-			],
-			[
-				"res",
-				"qamp/src/ResultConnection.h"
-			],
-			[
-				"cmdserv",
-				"qamp/src/CmdServer.cpp"
-			],
-			[
-				"waveform",
-				"qamp/src/WaveformHandler.cpp"
+				"line",
+				"src/LineHandler.h"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"/home/martin/code/jquery/jquery.sublime-project"
-			],
-			[
-				"jq",
-				"/home/martin/code/jquery/jquery.sublime-project"
-			],
-			[
-				"tu",
-				"/home/martin/code/turntable/turntable.sublime-project"
-			],
-			[
-				"ecos",
-				"/home/martin/code/eCos/eCos.sublime-project"
-			],
-			[
-				"fp",
-				"/home/martin/code/qamp-fpga/qamp-fpga.sublime-project"
-			],
-			[
-				"fpfa",
-				"/home/martin/code/qamp-fpga/qamp-fpga.sublime-project"
-			],
-			[
-				"te",
-				"/home/martin/code/qamp-testsystem/qamp-testsystem.sublime-project"
-			],
-			[
-				"qampt",
-				"/home/martin/code/qamp-testsystem/qamp-testsystem.sublime-project"
-			],
-			[
-				"fpga",
-				"/home/martin/code/qamp-fpga/qamp-fpga.sublime-project"
-			],
-			[
-				"turn",
-				"/home/martin/code/turntable/turntable.sublime-project"
-			],
-			[
-				"qamp",
-				"/home/martin/code/qamp-testsystem/qamp-testsystem.sublime-project"
-			],
-			[
-				"test",
-				"/home/martin/code/qamp-testsystem/qamp-testsystem.sublime-project"
-			],
-			[
-				"ec",
-				"/home/martin/code/eCos/eCos.sublime-project"
-			],
-			[
-				"e",
-				"/home/martin/code/eCos/eCos.sublime-project"
-			],
-			[
-				"pdf",
-				"/home/martin/extcode/pdfcrack-0.11/pdfcrack.sublime-project"
-			],
-			[
-				"pd",
-				"/home/martin/extcode/pdfcrack-0.11/pdfcrack.sublime-project"
-			],
-			[
-				"jqu",
-				"/home/martin/code/jquery/jquery.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 276.0,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }

@@ -13,10 +13,11 @@ class DumbLineEditor : public LineEditor {
 	LineHandler& handler;
 	char line[MAX_LINELENGTH];
 	int length;
+	const char* prompt;
 
 public:
 	DumbLineEditor(Outputter& output, LineHandler& handler) 
-	   : output(output), handler(handler), length(0) {
+	   : output(output), handler(handler), length(0), prompt("") {
 
 	}
 
@@ -24,13 +25,21 @@ public:
 		if(c == '\n') {
 			output.putchar(c);
 			line[length]='\0';
-			handler.handleLine(line);
+			if(length > 0) {
+				handler.handleLine(line);
+			}
 			length=0;
+			output.puts(prompt);
 		} else if(length < MAX_LINELENGTH) {
 			output.putchar(c);
 			line[length]=c;
 			length++;
 		}
+	}
+
+	void setPrompt(const char* newprompt) {
+		prompt = newprompt;
+		output.puts(prompt);
 	}
 
 };

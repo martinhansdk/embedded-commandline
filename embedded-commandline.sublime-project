@@ -2,10 +2,10 @@
 	"folders":
 	[
 		{
-			"path": "src"
+			"path": "test"
 		},
 		{
-			"path": "test"
+			"path": "src"
 		}
 	]
 }
