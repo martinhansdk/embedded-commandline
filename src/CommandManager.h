@@ -3,6 +3,7 @@
 
 #include <InputOutput.h>
 #include <Command.h>
+#include <LineHandler.h>
 
 namespace embeddedcommandline {
 
