@@ -69,7 +69,7 @@ public:
 
 		for(int i=0; i<numberOfCommands; i++) {
 			if(streq(args[0], commandstr[i], MAX_COMMAND_LEN)) {
-				commands[0]->execute(args + 1, noOfArgs-1);
+				commands[i]->execute(args + 1, noOfArgs-1);
 				return;
 			}
 		}
