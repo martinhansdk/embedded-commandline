@@ -51,7 +51,7 @@ public:
 				skip=false;
 			} else if(!skip) {
 				if(noOfArgs >= MAX_ARGS + 1) {
-					output.puts("ERROR: Too many arguments");
+					output.puts("ERROR: Too many arguments\r\n");
 					return;
 				}
 
@@ -76,6 +76,7 @@ public:
 		output.puts("ERROR: Unknown command \"");
 		output.puts(line);
 		output.putchar('"');
+		output.puts("\r\n");
 	}
 };
 
