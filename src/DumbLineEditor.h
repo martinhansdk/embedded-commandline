@@ -35,11 +35,13 @@ public:
 			line[length]=c;
 			length++;
 		}
+      output.flush();
 	}
 
 	void setPrompt(const char* newprompt) {
 		prompt = newprompt;
 		output.puts(prompt);
+		output.flush();
 	}
 
 };
