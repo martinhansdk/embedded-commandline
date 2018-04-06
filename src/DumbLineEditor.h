@@ -16,7 +16,7 @@ class DumbLineEditor : public LineEditor {
 	const char* prompt;
 
 public:
-	DumbLineEditor(Outputter& output, LineHandler& handler) 
+	DumbLineEditor(Outputter& output, LineHandler& handler)
 	   : output(output), handler(handler), length(0), prompt("") {
 
 	}

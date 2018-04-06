@@ -58,7 +58,7 @@ public:
 				args[noOfArgs]=&line[pos];
 				noOfArgs++;
 				skip=true;
-			}			
+			}
 			pos++;
 		}
 
