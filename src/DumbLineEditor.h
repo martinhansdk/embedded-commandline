@@ -16,12 +16,12 @@ class DumbLineEditor : public LineEditor {
 	const char* prompt;
 
 public:
-	DumbLineEditor(Outputter& output, LineHandler& handler) 
+	DumbLineEditor(Outputter& output, LineHandler& handler)
 	   : output(output), handler(handler), length(0), prompt("") {
 
 	}
 
-	void putchar(char c) {
+	virtual void putchar(char c) {
 		if(c == '\n') {
 			output.putchar(c);
 			line[length]='\0';
@@ -35,11 +35,13 @@ public:
 			line[length]=c;
 			length++;
 		}
+      output.flush();
 	}
 
 	void setPrompt(const char* newprompt) {
 		prompt = newprompt;
 		output.puts(prompt);
+		output.flush();
 	}
 
 };
