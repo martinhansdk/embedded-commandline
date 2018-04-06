@@ -21,7 +21,7 @@ public:
 
 	}
 
-	void putchar(char c) {
+	virtual void putchar(char c) {
 		if(c == '\n') {
 			output.putchar(c);
 			line[length]='\0';
